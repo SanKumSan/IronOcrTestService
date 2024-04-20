@@ -1,4 +1,4 @@
-namespace WebApplication1.Services;
+namespace IronOcrWebApi.Services;
 using IronOcr;
 
 public class IronOcrService
@@ -9,7 +9,7 @@ public class IronOcrService
 
         using (var ocrInput = new OcrInput())
         {
-            var resPath = @"F:\Learning2023\NetCoreProjects\we2\WebApplication1\Resources";
+            var resPath = @"F:\Learning2023\NetCoreProjects\we2\IronOcrWebApi\Resources";
             ocrInput.LoadImage(Path.Combine(resPath, "test.jpg"));
             //ocrInput.LoadPdf("document.pdf");
     

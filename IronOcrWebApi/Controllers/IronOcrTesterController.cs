@@ -1,7 +1,7 @@
+using IronOcrWebApi.Services;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Services;
 
-namespace WebApplication1.Controllers;
+namespace IronOcrWebApi.Controllers;
 
 public class IronOcrTesterController : ControllerBase
 {
