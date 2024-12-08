@@ -7,7 +7,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddControllers();
-IronOcr.License.LicenseKey = @"";
+// IronOcr.License.LicenseKey = @"";
 
 var app = builder.Build();
 
