@@ -17,3 +17,4 @@ jobs:
     with:
       SOLUTION_PATH: ${{ vars.SOLUTION_PATH }}
       OUTPUT_FILENAME: ${{ vars.OUTPUT_FILENAME }}
+      DOCKER_FILE_PATH: ${{ vars.DOCKER_FILE_PATH }}
