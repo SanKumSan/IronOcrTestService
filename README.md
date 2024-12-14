@@ -6,3 +6,5 @@ testing 2. file should be there and the next events will be triggered
 * github folder was missing but how this should be auto generated ? run first. ?
 * build got successfull with buid workflow
 * testing artifact workflow
+* sln renamed and all okay
+* multi OS first test and without NUGEt area
