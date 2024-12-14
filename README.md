@@ -8,3 +8,4 @@ testing 2. file should be there and the next events will be triggered
 * testing artifact workflow
 * sln renamed and all okay
 * multi OS first test and without NUGEt area
+* test with docker file
