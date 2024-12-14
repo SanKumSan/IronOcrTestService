@@ -11,9 +11,6 @@ on:
  
 jobs:
   build:
-    - name: Log in to Docker Hub
-      run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
-
     #uses: SankumSan/github-actions/.github/workflows/build-dotnet-workflow.yml@main
     #uses: SankumSan/github-actions/.github/workflows/build-mul-os-workflow.yml@main
     uses: SankumSan/github-actions/.github/workflows/build-push-docker-workflow.yml@main
