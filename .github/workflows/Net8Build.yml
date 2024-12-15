@@ -50,4 +50,4 @@ jobs:
           context: .
           file: ${{ vars.DOCKER_FILE_PATH }}
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/dockerfordotnetapi:latest, ${{ secrets.DOCKERHUB_USERNAME }}/dockerfordotnetapi:${{ github.run_number }}
+          tags: ${{ secrets.DOCKER_USERNAME }}/net-core-test-app:latest, ${{ secrets.DOCKER_USERNAME }}/net-core-test-app:${{ github.run_number }}
