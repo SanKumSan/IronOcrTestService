@@ -12,3 +12,4 @@ testing 2. file should be there and the next events will be triggered
 * secret updated with generated one from doio
 * test dcker login
 * tested with public
+* secrets used from vars in both
