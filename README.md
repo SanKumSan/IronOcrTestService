@@ -11,3 +11,4 @@ testing 2. file should be there and the next events will be triggered
 * test with docker file
 * secret updated with generated one from doio
 * test dcker login
+* tested with public
