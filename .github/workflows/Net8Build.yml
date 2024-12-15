@@ -27,7 +27,8 @@ jobs:
       -
         name: echoooooo
         run: |
-          example-docker-user ${{ env.doc_env_user }}
+          echo "Docker username: ${{ secrets.DOC_USER }}"
+          echo "Docker username: ${{ env.doc_env_user }}"
       -
         name: Checkout
         uses: actions/checkout@v2
