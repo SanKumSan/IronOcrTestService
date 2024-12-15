@@ -18,6 +18,3 @@ jobs:
       SOLUTION_PATH: ${{ vars.SOLUTION_PATH }}
       OUTPUT_FILENAME: ${{ vars.OUTPUT_FILENAME }}
       DOCKER_FILE_PATH: ${{ vars.DOCKER_FILE_PATH }}
-    env:
-      DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-      DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
