@@ -14,8 +14,8 @@ on:
 
 # done use this directlt
 env:
-  DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
-  DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
+  DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+  DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
   #doc_env_user: ${{ secrets.DOC_USER }}
   #doc_env_user1: ${{ secrets.DOC_PASS-DOCKER_NAME }}
   #doc_env_pass: ${{ secrets.DOC_PASS }}
@@ -28,8 +28,8 @@ jobs:
       -
         name: echoooooo
         run: |
-          echo "Docker username: ${{ secrets.DOCKERHUB_USERNAME }}"
-          echo "Docker username: ${{ env.DOCKERHUB_USERNAME }}"
+          echo "Docker username: ${{ secrets.DOCKER_USERNAME }}"
+          echo "Docker username: ${{ env.DOCKER_USERNAME }}"
       -
         name: Checkout
         uses: actions/checkout@v2
