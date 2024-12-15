@@ -14,3 +14,4 @@ testing 2. file should be there and the next events will be triggered
 * tested with public
 * secrets used from vars in both
 * remved eco
+* run pure docker all here
