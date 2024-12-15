@@ -15,3 +15,4 @@ testing 2. file should be there and the next events will be triggered
 * secrets used from vars in both
 * remved eco
 * run pure docker all here
+* * worked and checking tags update or iumage update
